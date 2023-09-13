@@ -9,16 +9,18 @@ h1 {
 	text-align: center;
 	font-size: 42px;
 	padding: 15px;
+	color: #C4C4C4;
 }
 
 h2 {
-	font: 30px dark #0D0D0D;
+	font: 30px dark #C4C4C4;
 }
 
 p {
 	font-size: 24px;
 	padding-top: 10px;
 	padding-left: 10px;
+	color: #707070;
 }
 
 img {
@@ -34,4 +36,63 @@ div {
 	min-height: 125px;
 	padding: 20px;
 	border: 3px solid #FFFFFF;
+}
+
+.introduction {
+	border-radius: 15px;
+	margin-top: 15px;
+	line-height: 2;
+}
+
+.red{
+	background-color: #FF0000;
+	text-align: right;
+	margin-left: 50px;
+	border-left: 5px;
+	border-bottom: 2px;
+	border-style: solid;
+	border-width: 0px 0px 2px 5px;
+}
+
+.blue{
+	background-color: #0000FF;
+	text-align: left;
+	margin-right: 50px;
+	border-right: 5px;
+	border-top: 2px;
+	border-style: solid;
+	border-width: 2px 5px 0px 0px;
+}
+
+.yellow{
+	background-color: #FFFF00;
+	text-align: right;
+	margin-left: 50px;
+	border-left: 5px;
+	border-bottom: 2px;
+	border-style: solid;
+	border-width: 0px 0px 2px 5px;
+}
+
+.green{
+	background-color: #00EB00;
+	text-align: left;
+	margin-right: 50px;
+	border-right: 5px;
+	border-top: 2px;
+	border-style: solid;
+	border-width: 2px 5px 0px 0px;
+}
+
+footer{
+	background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%,  #000000 100%);
+	border: 5px solid  #FFFFFF;
+}
+
+footer p {
+	text-align: right;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
 }
